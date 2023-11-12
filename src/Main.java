@@ -1,5 +1,4 @@
-
-          import sheffield.EasyReader;
+import sheffield.EasyReader;
 import sheffield.EasyWriter;
 
 import java.io.PrintStream;
@@ -9,7 +8,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
         public class ComputerGuesses extends BaseGame{
             private String secretWord = "";
-            private final int maxAttempts = 6;
+            private final int maxAttempts = 5;
             private int attemptsLeft = maxAttempts;
             private String [] attemptedWord= new String[7];
             private String fileName = "D:\\Moses\\upwork\\enoch\\my project 2024\\my project 2024\\sgb-words.txt";
